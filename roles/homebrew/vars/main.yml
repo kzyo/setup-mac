@@ -9,3 +9,4 @@ packages:
 homebrew_cask_packages:
   - { name: google-chrome }
   - { name: google-japanese-ime }
+  - { name: docker }
