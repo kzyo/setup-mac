@@ -2,6 +2,9 @@ packages:
   - { name: ansible, state: present }
   - { name: git, state: present }
   - { name: tree, state: present }
+  - { name: docker, state: present }
+  - { name: circleci, state: present }
 
 homebrew_cask_packages:
   - { name: google-chrome }
+  - { name: google-japanese-ime }
