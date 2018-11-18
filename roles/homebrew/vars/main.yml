@@ -5,6 +5,8 @@ packages:
   - { name: docker, state: present }
   - { name: circleci, state: present }
   - { name: vim, state: present }
+  - { name: rbenv, state: present }
+  - { name: mysql, state: present }
 
 homebrew_cask_packages:
   - { name: google-chrome }
