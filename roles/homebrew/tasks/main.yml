@@ -1,0 +1,14 @@
+- block:
+
+  - name: homebrew update
+    homebrew:
+      update_homebrew: true
+
+  - name: homebrew package install
+    homebrew:
+      name: "{{ item.name }}"
+      state: "{{ item.state | default('present') }}"
+    with_items: "{{ packages }}"
+
+  tags:
+    - homebrew
