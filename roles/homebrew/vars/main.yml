@@ -2,3 +2,6 @@ packages:
   - { name: ansible, state: present }
   - { name: git, state: present }
   - { name: tree, state: present }
+
+homebrew_cask_packages:
+  - { name: google-chrome }
