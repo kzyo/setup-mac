@@ -4,6 +4,7 @@ packages:
   - { name: tree, state: present }
   - { name: docker, state: present }
   - { name: circleci, state: present }
+  - { name: vim, state: present }
 
 homebrew_cask_packages:
   - { name: google-chrome }

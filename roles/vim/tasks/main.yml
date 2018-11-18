@@ -1,0 +1,7 @@
+- block:
+
+  - name: install .vimrc
+    template: src=.vimrc.j2 dest=~/.vimrc
+
+  tags:
+    - vim
