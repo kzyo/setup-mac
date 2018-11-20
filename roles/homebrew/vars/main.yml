@@ -7,6 +7,7 @@ packages:
   - { name: vim, state: present }
   - { name: rbenv, state: present }
   - { name: mysql, state: present }
+  - { name: openssl, state: present }
 
 homebrew_cask_packages:
   - { name: google-chrome }
