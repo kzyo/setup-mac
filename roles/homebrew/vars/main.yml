@@ -14,3 +14,4 @@ homebrew_cask_packages:
   - { name: google-japanese-ime }
   - { name: docker }
   - { name: atom }
+  - { name: clipy }
