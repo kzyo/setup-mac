@@ -9,6 +9,7 @@ packages:
   - { name: mysql, state: present }
   - { name: openssl, state: present }
   - { name: yarn, state: present }
+  - { name: wget, state: present }
 
 homebrew_cask_packages:
   - { name: google-chrome }
